@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Museu Nacional</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/normalize.css">
+
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+
+    </head>
+    <body>
+        <div id="container"><!--Inicio container-->
+
+            <header><!--Inicio header-->
+
+                <div id="logo">
+                    <h1><a href="">Museu Nacional</a></h1>
+                </div>
+
+                <nav><!--Inicio NAV-->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Exposições</a></li>
+                        <li><a href="#">Pesquisa</a></li>
+                        <li><a href="#">Acervo</a></li>
+                        <li><a href="#">Vídeos</a></li>
+                        <li><a href="#">Fotos</a></li>
+                        <li><a href="#">Contatos</a></li>
+                    </ul>
+                </nav><!--Fim NAV-->
+
+            </header><!--Fim header-->
+
+
+            <div id="principal"><!--Inicio principal-->
+                <div id="conteudo"><!--Inicio conteudo-->
+
+                    <section id="capa">
+                        <img src="img/museu.png" alt="Foto do museu">
+                    </section>
+
+                    <section id="postagens">
+
+                        <article id="postagem1">
+                            <h3>Sobre o museu</h3>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/cHkp8h0HQss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </article>
+
+                        <article id="postagem2">
+                            <h3>Como chegar ao museu</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2097937987705!2d-43.228288431592055!3d-22.905631508194663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1654551759624!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </article>
+
+                        <article>
+                            <h3>Exposições</h3>
+                            <ul>
+                                <li>
+                                    <a href="">PORTUGUESES NO MUNDO – 1415 A 1822</a>
+                                </li>
+                                <li>
+                                    <a href="">ORERETAMA</a>
+                                </li>
+                                <li>
+                                    <a href="">A CONSTRUÇÃO DA NAÇÃO – 1822 A 1889</a>
+                                </li>
+                                <li>
+                                    <a href="">A CIDADANIA EM CONSTRUÇÃO – 1889 À ATUALIDADE</a>
+                                </li>
+                                <li>
+                                    <a href="">FARMÁCIA HOMEOPÁTICA TEIXEIRA NOVAES</a>
+                                </li>
+                                <li>
+                                    <a href="">DO MÓVEL AO AUTOMÓVEL</a>
+                                </li>
+                            </ul>
+                        </article>
+
+                    </section>
+                </div><!--Fim conteudo-->
+
+                <aside><!--Inicio lateral-->
+                    <section id="depoimento">
+                        <img src="img/depoimento.png" alt="Imagem do depoimento">
+                    </section>
+
+                    <section id="visita"><!--Inicio visita-->
+                        <h4>Faça sua visita!</h4>
+                        <form>
+                            <fieldset>
+                                <legend>Selecione uma data</legend>
+                                <label for="data">Data</label>
+                                <input class="campo" type="date" id="data">
+
+                                <label for="qtd">Qtd de pessoas</label>
+                                <input class="campo" style="width:30px;" type="text" id="qtd">
+
+                            </fieldset>
+
+                            <input class="botao" type="submit" value="Veririfcar Disponibilidade">
+                        </form>
+                    </section><!--Fim visita-->
+
+                    <section id="galeria">
+                        <h4>Galeria de fotos</h4>
+                        
+                        <a href="">
+                            <img src="img/imagem1.jpg" height="93px" width="93px" alt="Exposição de artes">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem2.jpg" height="93px" width="93px" alt="Artes rústicas">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem3.jpg" height="93px" width="93px" alt="Vestido antigo">
+                        </a>
+
+                        <a href="">
+                            <img src="img/imagem4.jpg" height="93px" width="93px" alt="Arte sobre a política">
+                        </a>
+
+                    </section>
+                </aside><!--Fim lateral-->
+            </div><!--Fim principal-->
+
+        </div><!--Fim Container-->
+        
+    </body>
+</html>
