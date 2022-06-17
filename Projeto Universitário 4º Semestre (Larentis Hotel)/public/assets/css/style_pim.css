@@ -1,0 +1,38 @@
+.btn_reserva {
+    width: 230px;
+    height: 45px;
+    padding: 20px;
+    margin: 40px 87px;
+    text-align: center;
+}
+
+.btn_fechar {
+    margin-left: 110px;
+    padding: 15px 7px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.bold_login {
+    /* padding: ; */
+    font-weight: bold;
+}
+
+.mini_reserva {
+    /* padding: ; */
+    text-align: center;
+}
+
+.form_title {
+    text-align: left;
+}
