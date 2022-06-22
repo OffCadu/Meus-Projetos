@@ -2,3 +2,25 @@
     background: #ffc107;
     color: white;
 }
+
+.caixa{
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-rodape{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: left !important;
+}
+
+
+.text-rodape{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
