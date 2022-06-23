@@ -61,6 +61,34 @@ h3{
     font-weight: 700;
     letter-spacing: -0.04em;
 }
+
+footer{
+    background:#000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0px 5px;
+}
+
 /*NavBar*/
 nav.navbar-transparente{
     background: rgba(0, 0, 0, 0.6);
@@ -142,12 +170,33 @@ nav.navbar-transparente{
         font-size: 15px;
     }
 
-    h1{
+    #home h1{
         font-size: 2em;
     }
-
-    h2{
+    #home h2{
         font-size:3em;
+    }
+
+    #servicos h1{
+        font-size: 2em;
+    }
+    #servicos h2{
+        font-size:3em;
+    }
+
+    #recursos h1{
+        font-size: 2em;
+    }
+    #recursos h2{
+        font-size:3em;
+    }
+
+    footer h4{
+        margin:15px 0px;
+    }
+
+    .redes-md{
+        margin-left: 0px;
     }
  }
 
@@ -159,17 +208,45 @@ nav.navbar-transparente{
         font-size: 15px;
     }
 
-    h1{
+    #home h1{
         font-size: 3em;
     }
-
-    h2{
+    #home h2{
         font-size:3em;
     }
+
+    #servicos h1{
+        font-size: 3em;
+    }
+    #servicos h2{
+        font-size:3em;
+    }
+
+    #recursos h1{
+        font-size: 3em;
+    }
+    #recursos h2{
+        font-size:3em;
+    }
+    footer h4{
+        margin:15px 0px;
+    }
+
+    .redes-md{
+        margin-left: 0px;
+    }
+
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+    #home h1{
+        font-size: 4em;
+    }
+    #home h2{
+        font-size:4em;
+    }
+
     #servicos h1{
         font-size: 4em;
     }
@@ -182,11 +259,26 @@ nav.navbar-transparente{
     }
     #recursos h2{
         font-size:4em;
+    }
+
+    footer h4{
+        margin:0px 0px;
+    }
+
+    .redes-md{
+        margin-left: 120px;
     }
  }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+    #home h1{
+        font-size: 5em;
+    }
+    #home h2{
+        font-size:3em;
+    }
+
     #servicos h1{
         font-size: 5em;
     }
@@ -199,11 +291,26 @@ nav.navbar-transparente{
     }
     #recursos h2{
         font-size:3em;
+    }
+
+    footer h4{
+        margin:0px 0px;
+    }
+
+    .redes-md{
+        margin-left: 0px;
     }
  }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+    #home h1{
+        font-size: 6em;
+    }
+    #home h2{
+        font-size:3em;
+    }
+
     #servicos h1{
         font-size: 6em;
     }
@@ -216,5 +323,13 @@ nav.navbar-transparente{
     }
     #recursos h2{
         font-size:3em;
+    }
+
+    footer h4{
+        margin:0px 0px;
+    }
+
+        .redes-md{
+        margin-left: 0px;
     }
  }
