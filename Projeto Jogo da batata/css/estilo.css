@@ -1,0 +1,28 @@
+body{
+    background-image: url(../img/bg_mesa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.batata1{
+    width: 50px;
+    height: 50px;
+}
+
+.batata2{
+    width: 70px;
+    height: 70px;
+}
+
+.batata3{
+    width: 90px;
+    height: 90px;
+}
+
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+}
