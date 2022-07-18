@@ -2,6 +2,7 @@
 
 var altura = 0;
 var largura = 0;
+var vidas = 1;
 
 function ajustarPalco(){
     altura = window.innerHeight
@@ -20,6 +21,15 @@ function posicaoRandom(){
     //removendo batata existente
     if(document.getElementById('batata')){
         document.getElementById('batata').remove()
+
+        if(vidas > 3){
+            alert('Game over')
+        }else{
+            document.getElementById('v' + vidas).src="img/coracao_vazio.png"
+            
+            vidas++
+        }
+
     }
     
 
@@ -40,6 +50,9 @@ function posicaoRandom(){
     batata.style.top = posicaoY + 'px'
     batata.style.position = 'absolute'
     batata.id = 'batata'
+    batata.onclick = function(){
+        this.remove() 
+    }
 
     document.body.appendChild(batata)
 }
