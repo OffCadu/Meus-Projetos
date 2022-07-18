@@ -5,6 +5,19 @@ var largura = 0;
 var vidas = 1;
 var tempo = 5;
 
+var tempoBatata = 1500
+
+var nivel = window.location.search
+nivel  = nivel.replace('?','')
+
+if(nivel === 'normal'){
+    var tempoBatata = 1500
+}else if (nivel === 'dificil'){
+    var tempoBatata = 1000
+}else if(nivel === 'batata_louca'){
+    var tempoBatata = 750
+}
+
 function ajustarPalco(){
     altura = window.innerHeight
     largura = window.innerWidth
