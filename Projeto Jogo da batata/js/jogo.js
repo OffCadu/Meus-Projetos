@@ -3,6 +3,7 @@
 var altura = 0;
 var largura = 0;
 var vidas = 1;
+var tempo = 5;
 
 function ajustarPalco(){
     altura = window.innerHeight
@@ -15,6 +16,19 @@ function ajustarPalco(){
 
 ajustarPalco()
 
+//Cronometro
+
+var cronometro = setInterval(function(){
+    tempo -= 1
+    if(tempo < 0){
+        clearInterval(cronometro)
+        clearInterval(criaBatata)
+        window.location.href = 'vitoria.html'
+    }else{
+        document.getElementById('cronometro').innerHTML = tempo
+    }
+},1000)
+
 //Criando posições random
 function posicaoRandom(){
 
@@ -23,7 +37,7 @@ function posicaoRandom(){
         document.getElementById('batata').remove()
 
         if(vidas > 3){
-            alert('Game over')
+            window.location.href = 'game_over.html'
         }else{
             document.getElementById('v' + vidas).src="img/coracao_vazio.png"
             

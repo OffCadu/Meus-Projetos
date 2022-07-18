@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/estilo.css">
     <script src="js/jogo.js"></script>
 
-    <title>Potato game</title>
+    <title>Potato game - Jogar</title>
 </head>
 
 <body onresize="ajustarPalco()">
@@ -21,7 +21,7 @@
         </div>
         
             <div class="cronometro">
-                tempo restante: ?
+                tempo restante: <span id="cronometro"></span>
             </div>
     </div>
 
@@ -29,9 +29,9 @@
 
 
     <script>
+        document.getElementById('cronometro').innerHTML = tempo
         
-        
-        setInterval(function(){
+        var criaBatata = setInterval(function(){
             posicaoRandom()
         },1000)
     </script>
